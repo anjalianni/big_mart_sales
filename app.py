@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 17 17:20:22 2021
 
-@author: NiruSai
-"""
 
 import streamlit as st
 import numpy as np
@@ -13,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 import os
 import inspect
 import pickle
-
+from xgboost import XGBRegressor
 
 
 
